@@ -18,7 +18,9 @@ public class MainActivity extends AppCompatActivity {
                     Log.d("tag","开启线程下载");
                 }
             };
+            //加入线程
             instance.execute(runnable);
+
         }
     }
 }
